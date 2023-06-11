@@ -1,0 +1,17 @@
+body {
+    width: device-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: azure;
+}
+
+form {
+    margin-top: 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
