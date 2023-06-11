@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "firebase": "^9.22.2"
-  }
+  },
+  "name": "cucse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
