@@ -8,13 +8,16 @@ body {
     color: azure;
 }
 
-form {
+/* form {
     margin-top: 200px;
     display: flex;
     justify-items: center;
     align-items: center;
     flex-direction: column;
     gap: 25px;
+} */
+.sign-in-ins {
+    margin-top: 200px;
 }
 .gsign {
     margin-top: 50px;
