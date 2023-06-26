@@ -8,9 +8,10 @@
 //     alert(username);
 // });
 
-const p = document.getElementsByClassName("user-name");
+// const p = document.getElementsByClassName("user-name");
 
-function dataView() {
-    p.innerText = username;
-}
-dataView();
+// function dataView() {
+//     p.innerText = username;
+// }
+// dataView();
+

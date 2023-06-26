@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: #212121;
     color: azure;
 }
 
@@ -17,11 +17,10 @@ body {
     gap: 25px;
 } */
 .sign-in-ins {
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 .gsign {
-    margin-top: 50px;
-}
-#login {
-    height: 40px;
+    margin-top: 15px;
 }

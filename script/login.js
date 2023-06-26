@@ -69,27 +69,20 @@ login.addEventListener("click", (e) => {
       window.location.href = "./home.html";
     }
   }
-//   onSignInSuccess();
-  //logout
 
-  //   signOut.addEventListener("click", (e) => {
-  //     fire.auth().signOut()
-  //       .then(() => {
-  //         // Sign-out successful.
-  //       })
-  //       .catch((error) => {
-  //         // An error happened.
-  //       });
-  //   });
-  // firebase.auth().onAuthStateChanged(function(user) {
+  firebase.auth().onAuthStateChanged(function(user) {
 
-  //     if (user) {
-  //       // User is signed in.
-  //       alert(user.email);
+      if (user) {
+        // User is signed in.
+        alert(user.email);
 
-  //     } else {
-  //       // No user is signed in.
-  //     }
-  //   });
+      } else {
+        // No user is signed in.
+      }
+    });
   // add name display after login to do
 });
+
+
+// window.history.forward();
+// 	function noBack() { window.history.forward(); }

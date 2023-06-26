@@ -1,9 +1,15 @@
 body{
     width: device-width;
-    background-color: black;
+    background-color: #1a1a1a;
     color: aliceblue;
 }
 nav p{
     float: right;
     margin-right: 50px;
+}
+
+.subject-heading {
+    /* font-size: 80px; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
