@@ -94,8 +94,49 @@ button {
 .gsign {
     margin-top: 15px;
 }
-
-.slogan ,.info1 ,.info2 {
+.info {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  gap : 50px;
+}
+.slogan ,.info1 ,.info2, .info3 {
   font-family: 'Poppins', sans-serif;
     font-family: 'Syne', sans-serif;
 }
+
+.card2 {
+  width: 500px;
+  height: 200px;
+  border: 1px solid rgba(255,255,255,.20);
+  border-radius: 30px;
+  
+  background: rgb(13,13,13);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* margin: 10px; */
+  padding: 20px;
+
+ }
+ .card2 h2{
+  font-size: 20px;
+  text-align: center;
+ }
+ .card2 h4{
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+    /* font-family: 'Syne', sans-serif; */
+ }
+ /* .hblur {
+
+  background-color: #20232e;
+  
+  border-radius: 30px;
+ } */
