@@ -1,8 +1,11 @@
 body{
-    background-color: #212121;
+    /* background-color: #212121; */
+    background-color: rgb(13,13,13);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  color: azure;
     
 }
 
@@ -59,20 +62,40 @@ button {
 
   .heading h1 {
     font-size: 80px;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif; */
     font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Syne', sans-serif;
   }
 
   .card {
     width: 800px;
     height: 200px;
+    border: 1px solid rgba(255,255,255,.20);
     border-radius: 30px;
-    background: #212121;
-    box-shadow: 15px 15px 30px rgb(25, 25, 25),
-                -15px -15px 30px rgb(60, 60, 60);
+    
+    background: rgb(13,13,13);
+    /* box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
  
    }
+
+   .sign-in-ins {
+    /* margin-top: 200px; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.gsign {
+    margin-top: 15px;
+}
+
+.slogan ,.info1 ,.info2 {
+  font-family: 'Poppins', sans-serif;
+    font-family: 'Syne', sans-serif;
+}
