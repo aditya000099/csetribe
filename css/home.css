@@ -107,3 +107,14 @@ nav p{
  .forgap2 {
     margin-top: 50px;
  }
+
+
+
+
+
+
+
+
+ ::-webkit-scrollbar{
+   display: none;
+}

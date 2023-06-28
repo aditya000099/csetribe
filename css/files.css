@@ -1,0 +1,27 @@
+body{
+    /* background-color: #212121; */
+    background-color: rgb(13,13,13);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  color: azure;
+  font-family: 'Poppins', sans-serif;
+    font-family: 'Syne', sans-serif;
+    
+}
+
+.file {
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+.hbar {
+    font-size: 40px;
+}
+
+
+
+
+::-webkit-scrollbar{
+    display: none;
+}
