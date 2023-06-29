@@ -83,6 +83,12 @@ button {
     align-items: center;
  
    }
+   #lcard {
+    border-radius: 30px 30px 0px 0px;
+    margin-bottom: -50px;
+    width: 1200px;
+    height: 150px;
+   }
 
    .sign-in-ins {
     /* margin-top: 200px; */
@@ -106,6 +112,16 @@ button {
 .slogan ,.info1 ,.info2, .info3 {
   font-family: 'Poppins', sans-serif;
     font-family: 'Syne', sans-serif;
+}
+.slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.slogan img {
+  width: 40px;
+  height: auto;
 }
 
 .card2 {

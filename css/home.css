@@ -107,11 +107,17 @@ nav p{
  .forgap2 {
     margin-top: 50px;
  }
-#inshtml {
-   color: aliceblue;
-}
 
-
+.slogan {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+ }
+ .slogan img {
+   width: 40px;
+   height: auto;
+ }
 
 
 
