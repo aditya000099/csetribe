@@ -16,7 +16,9 @@ var is_signedIn = false;
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const login = document.getElementById("login");
-const signOut = document.getElementById("signOut");
+// const signOut = document.getElementById("signOut");
+// const heading = document.getElementById("heading");
+// const hins = document.getElementById("hins");
 
 const firebaseConfig = {
   apiKey: "AIzaSyDzxhGaioBWUh3WiHkV5Ehd8pTRUFwyNH0",
@@ -47,6 +49,7 @@ login.addEventListener("click", (e) => {
       const user = result.user;
       is_signedIn = true;
       const username = user.displayName;
+      // alert(username);
       onSignInSuccess();
       // IdP data available using getAdditionalUserInfo(result)
       // ...
@@ -66,7 +69,9 @@ login.addEventListener("click", (e) => {
   function onSignInSuccess() {
     if (is_signedIn) {
       // alert("User is signed in");
+
       window.location.href = "./home.html";
+      
     }
   }
 
@@ -85,5 +90,6 @@ login.addEventListener("click", (e) => {
 
 
 
+export const username = username;
 // window.history.forward();
 // 	function noBack() { window.history.forward(); }

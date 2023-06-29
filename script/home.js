@@ -7,4 +7,3 @@ function viewMCP() {
 function viewBEE() {
     window.location.href = "files-pages/bee.html";
 }
-
