@@ -105,7 +105,7 @@ button:active {
 }
 
 .info {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -147,7 +147,9 @@ button:active {
   align-items: center;
 
 } */
-
+.boy-image img{
+  max-width: 350px;
+}
 .card2 h2 {
   font-size: 20px;
   text-align: center;

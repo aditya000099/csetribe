@@ -120,7 +120,14 @@ nav p{
  }
 
 
-
+.books-image img {
+    max-width: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* .books-image img:hover {
+  transform: translateX(00%);
+} */
 
 
  ::-webkit-scrollbar{
